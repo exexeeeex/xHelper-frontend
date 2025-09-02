@@ -1,0 +1,16 @@
+.link {
+	transition: 0.2s linear;
+	&:hover {
+		background-color: var(--gray-1);
+	}
+}
+
+.session__card {
+	padding: 10px;
+	cursor: pointer;
+	background-color: var(--gray-3);
+	transition: 0.2s linear;
+	&:hover {
+		background-color: var(--gray-1);
+	}
+}

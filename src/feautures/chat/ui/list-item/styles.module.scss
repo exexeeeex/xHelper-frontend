@@ -1,0 +1,24 @@
+.card {
+	background-color: var(--gray-1);
+	width: 100%;
+	min-height: 50px;
+	height: 50px;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5px 5px;
+	cursor: pointer;
+	transition: 0.2s linear;
+	&__main {
+		display: flex;
+		margin: 0 auto;
+		&__flex {
+			margin: auto;
+		}
+	}
+	&:hover {
+		background-color: var(--gray-3);
+	}
+}
